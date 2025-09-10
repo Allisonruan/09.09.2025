@@ -1,0 +1,67 @@
+@import url("cores.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+    background-image: linear-gradient(to bottom, var(--color-header-start), var(--color-header-end));
+    color: var(--color-lyrics-link);
+    padding: 15px;
+    padding-bottom: 5px;
+}
+
+header>h1 {
+    font-size: 3.2em;
+    margin-top: 15px;
+    text-shadow: 3px 3px 10px rgba(255, 255, 255, 0.486);
+    margin-bottom: 15px;
+    letter-spacing: 4px;
+}
+
+header>p {
+    font-size: 1.3em;
+    margin-bottom: 8px;
+    font-weight: 300;
+    opacity: 0.9;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 3px 3px 8px rgba(255, 255, 255, 0.331);
+}
+
+nav {
+    margin-top: 30px;
+    margin-bottom: 16px;
+}
+
+nav>a {
+    text-decoration: none;
+    text-transform:inherit;
+    color: var(--color-lyrics-link);
+    background-color: var(--color-rodade);
+    border-radius: 25px;
+    padding: 14px 28px;
+    border: 2px solid var(--color-rodade);
+    margin: 0px 8px;
+    display: inline-block;
+    box-shadow: 5px 5px 10px var(--color-rodade-shadow);
+    text-shadow: 2px 2px 20px var(--color-lyrics-link);
+}
+
+nav>a:hover {
+    background-color: #ffffff4f;
+    transform: scale(1.05);
+}
+
+footer {
+    width: 100vw;
+    padding: 20px;
+    text-align: center;
+    background-color: var(--color-footer);
+    color: var(--color-lyrics-link);
+    position: fixed;
+    bottom: 0;
+}

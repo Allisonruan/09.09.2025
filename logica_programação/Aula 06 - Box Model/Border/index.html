@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border</title>
+
+    <style>
+    
+        main {
+            margin: auto;
+            width: 60vw;
+            box-shadow: 5px 5px 5px rgba(255, 0, 0, 0.522);
+            /* box-shadow para fazer uma sombra atrás da borda */
+        }    
+
+        #box1 {
+            border-width: 1px;
+            border-color: rgba(0, 0, 0, 0.515);
+            border-style: solid;
+            width: 60%;
+
+             /* Estilos de bordas solid, dashed, dotted */
+        }
+
+
+        #box2 {
+            border: 1px solid black;
+            height: 20px;
+            text-align: center;
+            border-radius: 15px;
+        }
+
+        #box3 {
+            height: 20px;
+            text-align: center;
+            background-image: linear-gradient(to top, black, gray, black);
+            border-top: 1px solid black;
+            border-bottom: 1px dashed rgb(0, 0, 0);
+            border-right: 1px dashed rgb(0, 0, 0);
+            border-left: 1px solid rgb(0, 0, 0);
+
+            /* border-top para a borda de cima
+            border-bottom para a borda de baixo
+            border-right para a borda da direita
+            border-left para a borda da esquedar
+             background-image: linear-gradient(to top) para fazer um degrade de cor */
+        }
+    </style>
+
+
+<!-- width é o espaçamento da borda do site (normalmente se usa Vw) -->
+
+</head>
+<body>
+    
+    <main>
+        <div id="box1">
+            Essa é a primeira caixa
+        </div>
+        <p></p>
+        <div id="box2">
+            Essa é a segunda caixa
+        </div>
+        <p></p>  
+        <div id="box3">
+            Essa é a terceira caixa    
+        </div>
+    </main>
+
+</body>
+</html>
